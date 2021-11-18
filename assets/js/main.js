@@ -1,20 +1,8 @@
-console.log('Sample JavaScript HW#1');
 
-/*
- * #1
- *
- * Создайте переменные со значениями
- */
-
-// имя переменной: myNum, значение: 10
 var myNum = 10;
-// имя переменной: myStr, значение: 'строка'
 var myStr = 'строка';
-// имя переменной: myBool, значение: true
 var myBool = true;
-// имя переменной: myArr, значения: 1, 2, 3, 4, 5
 var myArr = [1, 2, 3, 4, 5];
-// имя переменной myObj, значения: first: 'First Name', last: 'Last Name'
 var myObj = {
     first: 'First Name',
     last: 'Last Name'
@@ -25,6 +13,7 @@ console.log('myStr:', myStr);
 console.log('myBool:', myBool);
 console.log('myArr:', myArr);
 console.log('myObj:', myObj);
+
 /*
  * #2
  *
@@ -32,8 +21,7 @@ console.log('myObj:', myObj);
  * чтобы получить результат с 2 знаками после запятой.
  * Результат сохраните в переменную decimal2.
  */
-
-// decimal2
+var decimal2 = myNum.toFixed(2);
 
 /*
  * #3
@@ -43,7 +31,14 @@ console.log('myObj:', myObj);
  * Поэкспериментируйте с результатами, выводя их в консоль.
  */
 
-// i
+var i = 0;
+
+console.log('Префиксный инкремент:', ++i);
+console.log('Постфиксный инкремент:', i++);
+console.log('Значение i:', i);
+console.log('Префиксный декремент:', --i);
+console.log('Постфиксный декремент:', i--);
+console.log('Значение i:', i);
 
 /*
  * #4
