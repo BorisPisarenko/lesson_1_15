@@ -19,6 +19,12 @@ var myObj = {
     first: 'First Name',
     last: 'Last Name'
 };
+
+console.log('myNum: ', myNum);
+console.log('myStr:', myStr);
+console.log('myBool:', myBool);
+console.log('myArr:', myArr);
+console.log('myObj:', myObj);
 /*
  * #2
  *
