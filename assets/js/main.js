@@ -119,11 +119,15 @@ console.log('isRamaPos:', isRamaPos);
  * Исходная строка: 'Мама мыла раму, рама мыла маму'
  *       Результат: 'Мама моет раму, Рама держит маму'
  */
+var strReplace = strObj.str.replace('мыла', 'моет');
 
-// strReplace
-
+strReplace = strReplace.replace('рама', 'Рама');
+strReplace = strReplace.replace('мыла', 'держит');
+console.log('strReplace:', strReplace);
 /*
  * #9
  *
  * Преобразуйте любую строку в верхний, затем в нижний регистры, результат отобразите в консоли.
  */
+console.log(myStr.toUpperCase());
+console.log('Любая Строка'.toLowerCase());
