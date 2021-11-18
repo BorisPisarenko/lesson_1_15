@@ -49,17 +49,22 @@ console.log('Значение i:', i);
  * В вычислениях можно использовать объявленную ранее переменную myNum и/или числа.
  */
 
-// myTest
+var myTest = 20;
 
-// +=
+myTest += myNum;
+console.log('+=', myTest);
 
-// –=
+myTest -= 10;
+console.log('-=', myTest);
 
-// *=
+myTest *= 2;
+console.log('*=', myTest);
 
-// /=
+myTest /= myNum;
+console.log('/=', myTest);
 
-// %=
+myTest %= 3;
+console.log('%=', myTest);
 
 /*
  * #5
@@ -68,12 +73,20 @@ console.log('Значение i:', i);
  */
 
 // константа Pi → myPi
+var myPi = Math.PI;
+console.log('myPi:', myPi);
 
 // округленное значение числа 89.279 → myRound
+var myRound = Math.round(89.279);
+console.log('myRound:', myRound);
 
 // случайное число между 0..10 → myRandom
+var myRandom = Math.random() * 10;
+console.log('myRandom:', myRandom);
 
 // 3 в 5 степени → myPow
+var myPow = Math.pow(3, 5);
+console.log('myPow:', myPow);
 
 /*
  * #6
