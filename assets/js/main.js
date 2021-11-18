@@ -95,9 +95,10 @@ console.log('myPow:', myPow);
  * Присвойте ключу str строку текста "Мама мыла раму, рама мыла маму", ключу length установите длину этой строки.
  */
 
-// Мама мыла раму, рама мыла маму
+var strObj = { str: 'Мама мыла раму, рама мыла маму' };
 
-// strObj
+strObj.length = strObj.str.length;
+console.log('strObj = ', strObj);
 
 /*
  * #7
@@ -106,7 +107,9 @@ console.log('myPow:', myPow);
  * результат сохраните в переменную isRamaPos и выведите ее в консоль.
  */
 
-// isRamaPos
+var isRamaPos = strObj.str.indexOf('рама');
+
+console.log('isRamaPos:', isRamaPos);
 
 /*
  * #8
